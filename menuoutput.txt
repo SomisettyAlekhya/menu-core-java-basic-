@@ -1,0 +1,71 @@
+"C:\Program Files\Java\jdk1.8.0_201\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=58750:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\cherr\IdeaProjects\userlogin\out\production\userlogin" Main
+..................Welcome to our Cafe...............
+**********************************
+1.FrenchFires   100/-
+2.Burger        100/-
+3.Pastery       100/-
+4.Vegpizza      150/-
+5.NonVegpizza   200/-
+6.Colddrink     80/-
+7.Coffee        85/-
+8.Tea           80/-
+Enter your choice : 
+1
+You have selected FrenchFires....
+Enter the desired quantity: 
+2
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+2
+You have selected Burger....
+Enter the desired quantity: 
+2
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+3
+You have selected Pastery....
+Enter the desired quantity: 
+2
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+4
+You have selected Vegpizza....
+Enter the desired quantity: 
+1
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+5
+You have selected NonVegPizza....
+Enter the desired quantity: 
+1
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+6
+You have selected Colddrink....
+Enter the desired quantity: 
+1
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+7
+You have selected Coffee....
+Enter the desired quantity: 
+1
+Do you wish to order anything else :(Y/N)
+Y
+Enter your choice : 
+8
+You have selected Tea....
+Enter the desired quantity: 
+1
+Do you wish to order anything else :(Y/N)
+N
+..........Thankyou for ordering........
+..........Your Bill is : 1195.......
+
+Process finished with exit code 1

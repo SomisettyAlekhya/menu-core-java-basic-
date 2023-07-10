@@ -1,0 +1,110 @@
+import java.util.*;
+public class Main {
+    int frenchfires=100;
+    int burger=100;
+    int pastery= 100;
+    int Vegpizza= 150;
+    int Nonvegpizza=200;
+    int colddrink=80;
+    int tea=80;
+    int cofee=85;
+    int ch;
+    int quantity;
+    int total=0;
+    String again;
+    Scanner sc=new Scanner(System.in);
+    public void display() {
+        System.out.println("..................Welcome to our Cafe...............");
+        System.out.println("**********************************");
+        System.out.println("1.FrenchFires   100/-");
+        System.out.println("2.Burger        100/-");
+        System.out.println("3.Pastery       100/-");
+        System.out.println("4.Vegpizza      150/-");
+        System.out.println("5.NonVegpizza   200/-");
+        System.out.println("6.Colddrink     80/-");
+        System.out.println("7.Coffee        85/-");
+        System.out.println("8.Tea           80/-");
+    }
+    public void generate(){
+        System.out.println("..........Thankyou for ordering........");
+        System.out.println("..........Your Bill is : "+total+".......");
+    }
+    public void order(){
+        while(true){
+        System.out.println("Enter your choice : ");
+        ch=sc.nextInt();
+        switch(ch) {
+            case 1:
+                System.out.println("You have selected FrenchFires....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * frenchfires;
+                break;
+            case 2:
+                System.out.println("You have selected Burger....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * burger;
+                break;
+            case 3:
+                System.out.println("You have selected Pastery....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * pastery;
+                break;
+            case 4:
+                System.out.println("You have selected Vegpizza....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * Vegpizza;
+                break;
+            case 5:
+                System.out.println("You have selected NonVegPizza....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * Nonvegpizza;
+                break;
+            case 6:
+                System.out.println("You have selected Colddrink....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * colddrink;
+                break;
+            case 7:
+                System.out.println("You have selected Coffee....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * cofee;
+                break;
+            case 8:
+                System.out.println("You have selected Tea....");
+                System.out.println("Enter the desired quantity: ");
+                quantity = sc.nextInt();
+                total = total + quantity * tea;
+                break;
+            default:
+                break;
+        }
+        System.out.println("Do you wish to order anything else :(Y/N)");
+        again=sc.next();
+        if(again.equalsIgnoreCase("Y")){
+            order();
+        }
+        else if(again.equalsIgnoreCase("N")){
+            generate();
+            System.exit(1);
+        }
+        else{
+            System.out.println("Invalid choice...");
+        }
+        }
+    }
+    public static void main(String args[]){
+        Main a=new Main();
+        a.display();
+        a.order();
+    }
+}
+
+
+
